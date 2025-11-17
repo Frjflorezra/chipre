@@ -8,8 +8,6 @@ rootProject.name = "chirp"
 
 include("user")
 include("app")
-
-
 include("chat")
 include("common")
 include("notification")

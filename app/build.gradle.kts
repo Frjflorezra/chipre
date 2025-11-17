@@ -12,12 +12,13 @@ description = "chirp"
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
+        languageVersion = JavaLanguageVersion.of(21)
     }
 }
 
 repositories {
     mavenCentral()
+    maven { url = uri("https://repo.spring.io/milestone") }
     maven { url = uri("https://repo.spring.io/snapshot") }
 }
 
